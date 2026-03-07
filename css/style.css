@@ -584,3 +584,287 @@ h6,
 .footer .footer-menu a:hover {
     color: var(--secondary);
 }
+
+
+/*** Responsive Styles ***/
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 15px;
+    }
+    
+    .hero-header {
+        padding: 14rem 0;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .hero-header {
+        padding: 6rem 0 9rem 0;
+        background-position:
+            left 0px top 0px,
+            right 0px top 0px,
+            left 0px bottom 0px,
+            right 0px bottom 0px,
+            center center,
+            center bottom;
+        background-size: contain, contain, contain, contain, cover, cover;
+    }
+    
+    .fact, .newsletter {
+        background-position:
+            left 0px top 0px,
+            right 0px top 0px,
+            left 0px bottom 0px,
+            right 0px bottom 0px,
+            center center;
+        background-size: contain, contain, contain, contain, cover;
+    }
+    
+    .footer {
+        padding-top: 6rem;
+    }
+    
+    .section-title span:first-child,
+    .section-title span:last-child {
+        margin-right: 15px;
+        width: 20px;
+    }
+    
+    .section-title span:last-child {
+        margin-left: 15px;
+    }
+    
+    .service-item {
+        margin-bottom: 30px;
+    }
+    
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+    
+    .team-item {
+        margin-bottom: 30px;
+    }
+    
+    .testimonial-item {
+        text-align: center;
+    }
+    
+    .testimonial-carousel .owl-nav {
+        margin-top: 30px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    .hero-header {
+        padding: 4rem 0 6rem 0;
+    }
+    
+    .fact, .newsletter {
+        margin: 3rem 0;
+    }
+    
+    .footer {
+        margin-top: 3rem;
+    }
+    
+    .btn-lg-square {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .back-to-top {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.25rem;
+    }
+    
+    p {
+        font-size: 0.9rem;
+    }
+    
+    .hero-header {
+        padding: 3rem 0 4rem 0;
+        background: url(../img/bg-bottom.png);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .fact, .newsletter {
+        background: none;
+        margin: 2rem 0;
+        padding: 2rem 0;
+    }
+    
+    .footer {
+        margin-top: 2rem;
+        padding-top: 4rem;
+        background: url(../img/map.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .section-title {
+        justify-content: center;
+    }
+    
+    .section-title span:first-child,
+    .section-title span:last-child {
+        display: none;
+    }
+    
+    .service-item {
+        padding: 30px 20px;
+    }
+    
+    .service-item .service-icon {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .progress {
+        height: 8px;
+    }
+    
+    #portfolio-flters li {
+        margin-bottom: 10px;
+        padding: 8px 15px;
+    }
+    
+    .testimonial-carousel .owl-nav .owl-prev,
+    .testimonial-carousel .owl-nav .owl-next {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+    
+    .footer .btn.btn-social {
+        width: 35px;
+        height: 35px;
+        margin-right: 3px;
+        margin-bottom: 5px;
+    }
+    
+    .footer .footer-menu a {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+        padding-right: 0;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, .1);
+        padding-bottom: 10px;
+    }
+    
+    .footer .copyright {
+        text-align: center;
+    }
+    
+    .copyright .col-md-6 {
+        text-align: center !important;
+        margin-bottom: 15px;
+    }
+}
+
+/* Very small devices (less than 400px) */
+@media (max-width: 399.98px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+    }
+    
+    .navbar-brand h1 {
+        font-size: 1.5rem;
+    }
+    
+    .btn {
+        font-size: 0.85rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    .form-control {
+        font-size: 0.85rem;
+    }
+}
+
+/* Additional responsive utilities */
+@media (max-width: 767.98px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+    
+    .text-center-mobile {
+        text-align: center !important;
+    }
+    
+    .col-md-6 {
+        margin-bottom: 20px;
+    }
+}
+
+/* Ensure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fix for long words breaking layout */
+p, h1, h2, h3, h4, h5, h6 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Form controls responsive */
+.form-control, .form-select {
+    width: 100%;
+}
+
+/* Button responsiveness */
+@media (max-width: 575.98px) {
+    .btn {
+        white-space: normal;
+        word-wrap: break-word;
+    }
+}
